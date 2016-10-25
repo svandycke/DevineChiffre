@@ -5,3 +5,14 @@ fonctions.h~
 CMakeLists .txt
 CMakeLists .txt~
 documentation/
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt~
+Jeu
+Makefile
+bestScore.txt
+bestScore.txt~
+cmake_install.cmake
+libfonctions.a
+test.txt~
+
