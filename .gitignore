@@ -2,3 +2,6 @@ jeu.c~
 jeu.o
 fonctions.c~
 fonctions.h~
+CMakeLists .txt
+CMakeLists .txt~
+documentation/
