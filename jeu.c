@@ -1,4 +1,4 @@
-/*!\file window.c
+/*!\file jeu.c
  *
  * \brief Jeu : Devine un chiffre
  *
