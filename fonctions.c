@@ -26,6 +26,7 @@ int tirage_aleatoire(int max){
  * \param chiffre_secret Valeur du chiffre secret à trouver
  * \param nb_coups Nombre de coups joués
  * \param chiffre_trouve Flag qui indique si le chiffre est trouvé 
+ * \param meilleur_score Meilleur score
 */
 int verifie_chiffre(int chiffre, int chiffre_secret, int nb_coups, int chiffre_trouve, int meilleur_score){
  	if(chiffre_secret == chiffre){
@@ -59,7 +60,9 @@ int recupere_meilleur_score(void){
 	return score[0]; 	
 }
 
-/*!\brief Afficher le meilleur score */
+/*!\brief Afficher le meilleur score
+\param meilleur_score Meilleur score
+*/
 void afficher_meilleur_score(int meilleur_score){
 	printf("****************************************** \n");
     printf("Meilleur score : %d \n", meilleur_score);
@@ -67,7 +70,10 @@ void afficher_meilleur_score(int meilleur_score){
  	
 }
 
-/*!\brief Vérifier le meilleur score */
+/*!\brief Vérifier le meilleur score 
+\param meilleur_score Meilleur score
+\param nb_coups Nombre de coups
+*/
 void verifie_meilleur_score(int meilleur_score, int nb_coups){
 	
 if(nb_coups < meilleur_score)
